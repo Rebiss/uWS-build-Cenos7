@@ -2,16 +2,16 @@
 
 Install clang 5+ (LLVM)
 `
-$ sudo yum install centos-release-scl llvm-toolset-7
+    $ sudo yum install centos-release-scl llvm-toolset-7
 `
 Recursively clone the repo
 `
-$ git clone --recursive https://github.com/uNetworking/uWebSockets.js.git --depth=1
+    $ git clone --recursive https://github.com/uNetworking/uWebSockets.js.git --depth=1
 `
 Replace build.c and Makefile with the patched ones
 Build it
 `
-$ make
+    $ make
 `
 
 ### Centos7 (Alternative update glibc-2.17->2.18 )

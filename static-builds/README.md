@@ -1,1 +1,5 @@
-This folder contains static build. You can run test.js script.
+#### This folder contains static build.
+
+`sh
+$ node test.js
+`
